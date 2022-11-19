@@ -1,0 +1,17 @@
+print("Hello Waris")
+# print("Hello Sanabil")
+print("Hello Azam")
+print("Hello Arwaz")
+# print("Hello Tahseen")
+print("Hello Amaan")
+print("Hello Abdul Qadir")
+'''
+print("Mohd Anas")
+print("Mehrab")
+print("Imran")
+print("Uvais")
+print("Faizan")
+print("Arwaz 2")
+'''
+print("Gyas")
+print("Harsh")
