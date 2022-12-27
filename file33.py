@@ -27,4 +27,11 @@
 # for x in adhar_numbers :
 #     print("10k transffered to ", x)
 
-x = { 10, 20, 30, 'Mumtaj', "New Delhi", "USA", "New Delhi" } 
+# x = { 10, 20, 30, 'Mumtaj', "New Delhi", "USA", "New Delhi" } 
+
+# x = set((1,100,2,4,5,5))
+# x.add(9)
+# x.add(8)
+# x.add(11)
+# x.add(7)
+# print(x)
