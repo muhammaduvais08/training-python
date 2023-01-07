@@ -82,3 +82,87 @@
 #     print(f"z={z}")
     
 # display(  y = 2, x = 100, z = 200 )
+
+# x = 10
+# y = 20
+
+# # z = x if x < y else y
+
+# # def fu1( x , y ):
+# #     return x + y
+
+# z = lambda x, y : x + y
+
+# print( z(x, y) )
+
+# Varibale Scope
+
+
+x = 100
+
+# def display():
+#     y = 50
+#     print("in display function")
+#     print(f"Y is {y}")
+
+# def display():
+#     x = 10
+#     print("in display function")
+#     print(f"x is {x}")
+#     def display_inner():
+#         print("in display inner function")
+    
+#     display_inner()
+
+# def display():
+#     global x 
+#     x = 10
+#     print("in display function")
+#     print(f"x is {x}")
+    
+# def display2():
+#     y = 10
+#     print("in display function")
+#     print(f"x is {x}")
+    
+    
+# print(x)
+# display()
+
+# print(f"x is {x}")
+
+# x = 1
+# while x < 11:
+#     print("test")
+#     print("Test")
+#     x += 7
+
+# S  M  T  W  T  F  S
+
+f = int(input("first Day of month"))
+d = 30
+
+l = 'SMTWTFS'
+
+for x in l:
+    print( x , end='  ')
+
+print()
+
+print('   '* (f-1), end='')
+
+c = 1
+r = f
+while c <= d :
+    s = str(c)
+    print( s.ljust(3), end='' )
+    c = c + 1
+    if r % 7 == 0 :
+        print()
+        r = 1
+    else:
+        r = r + 1
+     
+
+
+
